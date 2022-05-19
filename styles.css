@@ -1,0 +1,133 @@
+* {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 30px;
+  width: 100%;
+  background-color: #30B3CB;
+  text-decoration-color: #FFF;
+  font-size: 13;
+  z-index: 1;
+}
+#section {
+  height: 30px;
+  width: 100%;
+  background-color: #B7D8E2;
+  text-decoration-color: #000000;
+  font-size: 12;
+  z-index: 1;
+}
+#subsection {
+  height: 20px;
+  width: 100%;
+  background-color: #B7D8E2;
+  text-decoration-color: #000000;
+  font-size: 12;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 30px;
+  width: 100%;
+  background-color: #30B3CB;
+  clear: both;
+  position: relative;
+}
+
+
+.contents{
+  font-size: 12;
+}
+.h-font{
+  font-size: 12;
+  text-decoration-color: #FFF;
+}
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 5px;
+  height: 1000px;
+  text-align: justify;
+}
+
+p
+{
+
+  text-align: justify;
+
+}
+li {
+  font-family: 'Cormorant Garamond';
+
+}
+
+.head {
+  font-size: 20px;
+}
+.subhead {
+  font-size: 18px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: 555FE7;
+  text-decoration: none;
+}
+hr {
+  border:none;
+  border-top:1px dotted #f00;
+  color:#fff;
+  background-color:#000000;
+  height:1px;
+  width:100%;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 60px;
+    justify-content: center;
+    text-align: justify;
+  }
+}
